@@ -63,6 +63,16 @@
     height: 500px;
 }
 
+.debug .square{
+    background-color: palegreen;
+    border: 2px dashed rgb(0, 0, 0);
+}
+
+.debug .small-square{
+    background-color: gold;
+    border: 2px dashed rgb(0, 0, 0);
+}
+
 /* regole di css */
 
 header{
@@ -178,3 +188,14 @@ section{
     height: 200px;
 }
 
+.square{
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-square{
+    width: calc(100% / 2);
+    aspect-ratio: 1/1;
+}
