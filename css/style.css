@@ -57,11 +57,6 @@
     background-color: green;
 }
 
-.debug .section-2 div{
-    background-color: red;
-    border: 2px dashed rgb(0, 0, 0);
-    height: 500px;
-}
 
 .debug .square{
     background-color: palegreen;
@@ -71,6 +66,19 @@
 .debug .small-square{
     background-color: gold;
     border: 2px dashed rgb(0, 0, 0);
+}
+
+.debug .section-6 h2{
+   height: 50px;
+   background-color: pink;
+   border: 2px dashed rgb(0, 0, 0);
+}
+
+.debug .section-6 a{
+    height: 50px;
+    background-color: pink;
+    border: 2px dashed rgb(0, 0, 0);
+    display: block;
 }
 
 /* regole di css */
@@ -176,11 +184,11 @@ section{
     padding-top: 50px;
 }
 
-#big-img{
+.left-big-container {
     width: 60%;
 }
 
-#sc-2-text{
+.right-small-container{
     width: 40%;
 }
 
@@ -190,12 +198,44 @@ section{
 
 .square{
     width: calc(100% / 3);
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1;        /*proprietà compatibile all 89% considerando IE*/
     display: flex;
     flex-wrap: wrap;
 }
 
 .small-square{
     width: calc(100% / 2);
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1;      /*proprietà compatibile all 89% considerando IE*/
+}
+
+.section-6{
+    background-color: #b4d0e7;
+}
+
+.section-6 .flex{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+    
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin: 30px 0;
+}
+
+.questions{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.questions h3{
+    display: inline-block;
+    width: 95%;
+}
+
+.questions a {
+    display: inline-block;
 }
