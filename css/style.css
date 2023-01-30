@@ -202,15 +202,16 @@ section{
 }
 
 .square{
-    width: calc(100% / 3);
-    aspect-ratio: 1/1;        /*proprietà compatibile all 89% considerando IE*/
+    width: calc(100vw / 3);
+    height: calc(100vw /3);
     display: flex;
     flex-wrap: wrap;
 }
 
+/* aspect-ratio: 1/1;        proprietà compatibile all 89% considerando IE */
 .small-square{
-    width: calc(100% / 2);
-    aspect-ratio: 1/1;      /*proprietà compatibile all 89% considerando IE*/
+    width: calc(100% / 2 );
+    height: calc(100% / 2 );
 }
 
 .section-6{
