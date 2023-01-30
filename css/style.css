@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole di debug */
+
+.debug header{
+    background-color: orange;
+}
+
+.debug .header-left, .debug .header-right{
+    background-color: black;
+    border: 2px dashed white;
+
+}
+
+
+.debug .jt-left, .debug .jt-right{
+    background-color: green;
+    border: 2px dashed white;
+    height: 550px;
+}
+
+
+
+/* regole di css */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+.header-left, .header-right{
+    width: calc(100% / 3);
+}
+
+main{
+    padding-top: 80px;
+}
+
+.big-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    background-color: #b4d0e7;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.jt-left{
+    width: 30%;
+    padding-right: 10px;
+}
+
+.jt-right{
+    width: calc(70% - 10px);
+}
+
+.jumbotron .big-container h1{
+    padding: 80px 0;
+}
+
+.jumbotron .flex{
+    padding: 50px 0px 0px;
+    justify-content: space-between;
+}
