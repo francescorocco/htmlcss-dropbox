@@ -16,7 +16,7 @@ html{
 
 
 
-.debug .section-1 .billing{
+.debug #business-plan-sec .billing{
     background-color: blue;
     width: 200px;
     height: 50px;
@@ -43,7 +43,7 @@ html{
     border: 1px dashed red;
 }
 
-.debug .section-2 div{
+.debug #partner-sec div{
     height: 500px;
     border: 2px dashed rgb(0, 0, 0);
     width: 100%;
@@ -61,13 +61,13 @@ html{
     border: 2px dashed rgb(0, 0, 0);
 }
 
-.debug .section-6 h2{
+.debug #try-free-sec h2{
    height: 50px;
    background-color: pink;
    border: 2px dashed rgb(0, 0, 0);
 }
 
-.debug .section-6 a{
+.debug #try-free-sec a{
     height: 50px;
     background-color: pink;
     border: 2px dashed rgb(0, 0, 0);
@@ -86,10 +86,18 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 105px;
+    height: 100px;
     justify-content: space-between;
     z-index: 9999;
     align-items: center;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    display: inline-block;
 }
 
 header a {
@@ -97,14 +105,6 @@ header a {
     color: black;
     font-size: 22px;
     padding: 0 25px;
-}
-
-img {
-    width: 13%;
-}
-
-.logo {
-    display: inline-block;
 }
 
 .button {
@@ -119,12 +119,11 @@ img {
 }
 
 .header-left, .header-right{
-    width: 50%;
     padding: 0px 20px;
 }
 
 main{
-    padding-top: 105px;
+    padding-top: 100px;
 }
 
 .big-container{
@@ -137,7 +136,7 @@ main{
     margin: 0 auto;
 }
 
-.jumbotron{
+#jumbotron{
     background-color: #b4d0e7;
 }
 
@@ -155,13 +154,13 @@ main{
     position: relative;
 }
 
-.jumbotron .big-container h1 {
+#jumbotron .big-container h1 {
     padding: 100px 0 0;
     font-size: 100px;
     font-weight: 900;
 }
 
-.jumbotron .flex{
+#jumbotron .flex{
     padding: 50px 0px 0px;
     justify-content: space-between;
 }
@@ -253,7 +252,7 @@ section{
 }
 
 .square{
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
     height: calc(100vw /3);
     display: flex;
     flex-wrap: wrap;
@@ -262,15 +261,15 @@ section{
 /* aspect-ratio: 1/1;        proprietà compatibile all 89% considerando IE */
 
 .small-square{
-    width: calc(100% / 2 );
-    height: calc(100% / 2 );
+    width: 50%;
+    height: 50%;
 }
 
-.section-6{
+#try-free-sec{
     background-color: #b4d0e7;
 }
 
-.section-6 .flex{
+#try-free-sec .flex{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 200px;
@@ -282,7 +281,7 @@ hr {
     border: none;
 }
 
-.section-7 hr{
+#faq-sec hr{
     background-color: black;
     margin: 30px 0;
 }
