@@ -18,29 +18,7 @@ html{
 } */
 
 
-/* 
-.debug .square{
-    background-color: palegreen;
-    border: 2px dashed rgb(0, 0, 0);
-}
 
-.debug .small-square{
-    background-color: gold;
-    border: 2px dashed rgb(0, 0, 0);
-} */
-
-.debug #try-free-sec h2{
-   height: 50px;
-   background-color: pink;
-   border: 2px dashed rgb(0, 0, 0);
-}
-
-.debug #try-free-sec a{
-    height: 50px;
-    background-color: pink;
-    border: 2px dashed rgb(0, 0, 0);
-    display: block;
-}
 
 .debug .ft-column{
     height: 500px;
@@ -321,12 +299,13 @@ section{
     padding-bottom: 50px;
 }
 
-.partner-info-box .white-button {
+.white-button {
     display: inline-block;
     text-decoration: none;
     color: black;
     border: 1px solid black;
     padding: 10px 15px;
+    background-color: white;
 }
 
 #more-of-clients-sec a{
@@ -409,11 +388,13 @@ section{
     background-color: #b4d0e7;
 }
 
-#try-free-sec .flex{
-    justify-content: space-between;
+#try-free-sec .flex-between{
     align-items: center;
-    padding-bottom: 200px;
-    
+    padding-bottom: 150px;
+}
+
+#try-free-sec h2{
+    color: #61082b;
 }
 
 hr {
@@ -423,21 +404,26 @@ hr {
 
 #faq-sec hr{
     background-color: black;
-    margin: 30px 0;
 }
 
 .questions{
     width: 100%;
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 
-.questions h3{
+#faq-sec .big-h2 {
+    padding-bottom: 50px;
+}
+
+.questions h4{
     display: inline-block;
     width: 95%;
 }
 
-.questions a {
+.small-icon{
     display: inline-block;
+    text-decoration: none;
+    color: black;
 }
 
 footer{
