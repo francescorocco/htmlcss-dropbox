@@ -11,14 +11,14 @@ html{
 
 
 
-.debug .info-box, .debug .contact-box{
+/* .debug .info-box, .debug .contact-box{
     background-color: blueviolet;
     height: 400px;
     border: 1px dashed red;
-}
+} */
 
 
-
+/* 
 .debug .square{
     background-color: palegreen;
     border: 2px dashed rgb(0, 0, 0);
@@ -27,7 +27,7 @@ html{
 .debug .small-square{
     background-color: gold;
     border: 2px dashed rgb(0, 0, 0);
-}
+} */
 
 .debug #try-free-sec h2{
    height: 50px;
@@ -162,24 +162,6 @@ main{
     position: absolute;
 }
 
-
-.billing {
-    padding: 50px 0;
-    display: inline-block;
-    margin-right: 7%;
-}
-
-.billing::before {
-    content: '';
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: 2px solid rgb(116 116 116);
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
 section{
     padding-top: 150px;
 }
@@ -211,6 +193,14 @@ section{
     padding: 30px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.gray{
+    color: gray;
+}
+
 .bottom-border {
     border-bottom: 1px solid black;
     text-align: center;
@@ -219,6 +209,23 @@ section{
 }
 .border-bar{
     border: 1px solid black;
+}
+
+.billing {
+    padding: 50px 0;
+    display: inline-block;
+    margin-right: 7%;
+}
+
+.billing::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid rgb(116 116 116);
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 #business-plan-sec i {
@@ -233,14 +240,6 @@ section{
     padding-top: 10px;
     display: block;
     font-size: 0.9em;
-}
-
-.bold{
-    font-weight: bold;
-}
-
-.gray{
-    color: gray;
 }
 
 .text-with-icon {
@@ -268,11 +267,9 @@ section{
     color: #0061ff;
 }
 
-
 .plan-bottom {
     padding: 20px 40px;
 }
-
 
 .plan-bottom span {
     font-size: 0.9em;
@@ -308,8 +305,12 @@ section{
     margin-top: 50px;
 }
 
-#partner-img-box img{
+.w-100{
     width: 100%;
+}
+
+.w-50{
+    width: 50%;
 }
 
 .partner-info-box {
@@ -328,10 +329,6 @@ section{
     padding: 10px 15px;
 }
 
-.col-img img{
-    width: 100%;
-}
-
 #more-of-clients-sec a{
     padding-top: 60px;
     color: #0061ff;
@@ -341,15 +338,71 @@ section{
 .square{
     width: calc(100% / 3);
     height: calc(100vw /3);
-    display: flex;
     flex-wrap: wrap;
 }
 
-/* aspect-ratio: 1/1;        proprietà compatibile all 89% considerando IE */
+.center-clients img {
+    height: 15%;
+    display: inline;
+}
+
+.center-clients {
+    background-color: #f5f5f5;
+    overflow-y: hidden;
+    padding: 50px;
+}
+
+.center-clients hr {
+    width: 100px;
+    background-color: gray;
+    margin: 50px 0;
+}
+
+.center-clients p{
+    padding-bottom: 50px;
+}
 
 .small-square{
     width: 50%;
     height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-square img{
+    filter: invert(1);
+}
+
+.sq-1{
+    background-color: #a2d39b;
+}
+
+.sq-2{
+    background-color: #61082b;
+}
+
+.sq-3{
+    background-color: #0093ce;
+}
+
+.sq-4{
+    background-color: #ff1c1c;
+}
+
+.sq-5{
+    background-color: #d5001f;
+}
+
+.sq-6{
+    background-color: #b4d0e7;
+}
+
+.sq-7{
+    background-color: #0d2481;
+}
+
+.sq-8{
+    background-color: #ffd830;
 }
 
 #try-free-sec{
