@@ -16,22 +16,21 @@ html{
 
 
 
-.debug #business-plan-sec .billing{
+/* .debug #business-plan-sec .billing{
     background-color: blue;
     width: 200px;
     height: 50px;
-    display: inline-block;
     border: 2px dashed white;
-}
+} */
 
-.debug .long-column-1, .debug .long-column-2, .debug .long-column-3{
+/* .debug .long-column-1, .debug .long-column-2, .debug .long-column-3{
     height: 700px;
 }
 
 .debug .col{
     background-color: red;
     border: 2px dashed rgb(0, 0, 0);
-}
+} */
 
 .debug .top-bar{
     background-color: yellow;
@@ -82,6 +81,7 @@ html{
 /* regole di css */
 
 header{
+    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -98,6 +98,11 @@ header ul{
 
 header li{
     display: inline-block;
+    vertical-align: middle;
+}
+
+header img{
+    display: block;
 }
 
 header a {
@@ -196,8 +201,26 @@ section{
     padding-top: 200px;
 }
 
-.billing{
+.billing {
     padding: 50px 0;
+    display: inline-block;
+    font-size: 1.3em;
+    margin-right: 7%;
+}
+
+.billing::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 4px solid rgb(116 116 116);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#business-plan-sec h2 {
+    font-size: 4em;
 }
 
 .flex-columns{
@@ -207,24 +230,78 @@ section{
 }
 
 .col{
-    width: calc(100% / 3 - 40px);
+    width: 30%;
     margin-top: 30px;
 }
 
-.top-bar {
-    text-align: center;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.col-container {
+    padding: 30px;
 }
 
-.top-bar span{
+.bottom-border {
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: block;
+    padding: 12px;
+    font-size: 18px;
+
+}
+.border-bar{
+    border: 1px solid black;
+}
+
+#business-plan-sec i {
+    padding-right: 10px;
+}
+
+.col-container h4 {
+    font-size: 2em;
+    padding: 10px 0;
+
+}
+
+.col-container span {
+    padding-top: 10px;
+    display: block;
+    font-size: 1.2em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.gray{
+    color: gray;
+}
+
+.text-with-icon {
+    margin: 30px 0px;
+    text-indent: -15px;
+    padding-left: 15px;
+}
+
+#business-plan-sec .button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+
+.top-border-bar span{
     padding: 10px 0;
     display: block;
 }
 
-.bottom-bar.flex{
-    border: 1px solid black;
+#business-plan-sec hr {
+    background-color: gray;
+    margin: 30px 0;
+    width: 50px;
+}
+
+.blue-check{
+    color: #0061ff;
 }
 
 .info-box{
