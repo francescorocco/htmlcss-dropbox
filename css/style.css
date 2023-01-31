@@ -332,6 +332,12 @@ section{
     width: 100%;
 }
 
+#more-of-clients-sec a{
+    padding-top: 60px;
+    color: #0061ff;
+    display: block;
+}
+
 .square{
     width: calc(100% / 3);
     height: calc(100vw /3);
