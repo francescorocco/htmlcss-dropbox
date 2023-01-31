@@ -17,12 +17,6 @@ html{
     border: 1px dashed red;
 }
 
-.debug #partner-sec div{
-    height: 500px;
-    border: 2px dashed rgb(0, 0, 0);
-    width: 100%;
-    background-color: green;
-}
 
 
 .debug .square{
@@ -194,7 +188,7 @@ section{
     font-size: 2.5em;
 }
 
-.flex-columns{
+.flex-between{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -273,7 +267,7 @@ section{
     padding: 20px 40px;
 }
 
-.plan-bottom h4{
+.plan-bottom h4, .partner-info-box h4{
     font-size: 1.4em;
     padding-bottom: 20px;
 }
@@ -292,24 +286,44 @@ section{
     text-align: end;
 }
 
-.info-box, .w-7{
-    width: 70%;
+.w-3{
+    width: 30%;
 }
 
-.contact-box, .w-3{
-    width: 30%;
+.w-4{
+    width: 40%;
+}
+
+.w-6{
+    width: 60%;
+}
+
+.w-7{
+    width: 70%;
 }
 
 .business-plan-bt{
     margin-top: 50px;
 }
 
-.left-big-container {
-    width: 60%;
+#partner-img-box img{
+    width: 100%;
 }
 
-.right-small-container{
-    width: 40%;
+.partner-info-box {
+    padding: 50px;
+}
+
+.partner-info-box p{
+    padding-bottom: 50px;
+}
+
+.partner-info-box .white-button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 15px;
 }
 
 .col-img{
