@@ -181,11 +181,19 @@ main{
 }
 
 section{
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
-#business-plan-sec h2 {
+.big-h2{
     font-size: 2.5em;
+}
+
+.big-h4{
+    font-size: 1.5em;
+}
+
+.padding-b20{
+    padding-bottom: 20px;
 }
 
 .flex-between{
@@ -218,9 +226,7 @@ section{
 }
 
 .col-container h4 {
-    font-size: 1.5em;
-    padding: 10px 0;
-    
+    padding: 10px 0; 
 }
 
 .col-container span {
@@ -267,10 +273,6 @@ section{
     padding: 20px 40px;
 }
 
-.plan-bottom h4, .partner-info-box h4{
-    font-size: 1.4em;
-    padding-bottom: 20px;
-}
 
 .plan-bottom span {
     font-size: 0.9em;
@@ -326,8 +328,8 @@ section{
     padding: 10px 15px;
 }
 
-.col-img{
-    height: 200px;
+.col-img img{
+    width: 100%;
 }
 
 .square{
