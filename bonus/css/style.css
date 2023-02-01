@@ -94,6 +94,7 @@ main{
     padding-bottom: 20px;
 }
 
+
 .flex-between{
     display: flex;
     justify-content: space-between;
@@ -101,6 +102,36 @@ main{
 }
 
                                                /*regole generiche fine */
+
+
+
+
+                                    /* regole abbellimento  */
+
+.hover-border:hover{
+border-bottom: 1px solid black;
+}
+
+.bt-blue-hover:hover{
+    background-color:  #76aaff;
+    color: black;
+}
+
+.wht-button-hover:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.question-hover:hover i{
+    rotate: 180deg;
+}
+
+.question-hover:hover .reply-hidden{
+    display: block;
+}
+
+                                    /* regole abbellimento  */
+
 
 header{
     background-color: white;
@@ -112,6 +143,10 @@ header{
     justify-content: space-between;
     z-index: 9999;
     align-items: center;
+}
+
+header ul{
+    line-height: 80px;
 }
 
 header ul, footer ul{
@@ -153,9 +188,6 @@ header a {
     background-color: #b4d0e7;
 }
 
-.jt-left{
-    width: 30%;
-}
 
 .jt-right{
     width: calc(70% - 10px);
@@ -199,7 +231,6 @@ header a {
 }
 
 .col{
-    width: 30%;
     margin-top: 30px;
 }
 
@@ -415,6 +446,11 @@ header a {
 
 #faq-sec{
     padding-bottom: 200px;
+}
+
+.reply-hidden{
+    padding-top: 20px;
+    display: none;
 }
 
 .questions h4{
